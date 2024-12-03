@@ -5,6 +5,10 @@ module.exports = {
     content: ["src/**/*.{ts,tsx}"],
     theme: {
         extend: {
+            colors:{
+                "accent": "#fedd69",
+                "accentPlus":"#075a5a",
+            },
             fontFamily: {
                 "consolas": ["Consolas", "Courier New", 'Courier', 'monospace'],
                 "uniSansCAPS": ["Uni Sans CAPS", ...defaultTheme.fontFamily.sans],
