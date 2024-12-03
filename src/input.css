@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./fonts/fonts.css');
+@import url("https://cdn.jsdelivr.net/gh/DeadCodeGames/DeadCodeGames.github.io@main/fonts/Uni%20Sans/stylesheet.css");
+
+html, body {@apply m-0 bg-black text-white;} a {all: unset;@apply cursor-pointer underline m-[2.5px];} div.checklist pre.code { @apply border w-fit p-2 rounded-lg border-solid border-[#1F1F1F] bg-[#0F0F0F] my-4; }
