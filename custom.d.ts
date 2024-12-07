@@ -4,3 +4,8 @@ declare module '*.svg' {
     export { ReactComponent };
     export default string;
 }
+
+declare module '*.webp' {
+    const value: string;
+    export default value;
+}

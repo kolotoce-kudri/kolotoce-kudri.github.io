@@ -11,8 +11,8 @@ module.exports = {
             },
             fontFamily: {
                 "consolas": ["Consolas", "Courier New", 'Courier', 'monospace'],
-                "uniSansCAPS": ["Uni Sans CAPS", ...defaultTheme.fontFamily.sans],
-                "montserrat": ["Montserrat", "Noto Sans JP", ...defaultTheme.fontFamily.sans],
+                "poppins": ["Poppins", ...defaultTheme.fontFamily.serif],
+                "icons": ["Material Symbols Outlined"]
             },
             keyframes: {
                 "heartPulse": {
