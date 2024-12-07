@@ -23,6 +23,11 @@ module.exports = {
             animation: {
                 'heart-pulse': 'heartPulse 0.9375s linear infinite',
             },
+            screens: {
+                "mobile":{raw:"(max-width:767px)"},
+                "notMobile":{raw:"(min-width:768px)"}
+            }
+         
         },
     },
 }
