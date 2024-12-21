@@ -5,24 +5,14 @@ module.exports = {
     content: ["src/**/*.{ts,tsx}"],
     theme: {
         extend: {
-            colors:{
+            colors: {
                 "accent": "#fedd69",
-                "accentPlus":"#075a5a",
+                "accentPlus": "#075a5a",
+                "accentMinus": "#ff5b43"
             },
-            fontFamily: {
-                "consolas": ["Consolas", "Courier New", 'Courier', 'monospace'],
-                "uniSansCAPS": ["Uni Sans CAPS", ...defaultTheme.fontFamily.sans],
-                "montserrat": ["Montserrat", "Noto Sans JP", ...defaultTheme.fontFamily.sans],
-            },
-            keyframes: {
-                "heartPulse": {
-                    '0%, 25%, 60%': { transform: 'scale(1)' },
-                    '5%, 35%': { transform: 'scale(1.25)' },
-                }
-            },
-            animation: {
-                'heart-pulse': 'heartPulse 0.9375s linear infinite',
-            },
+            screens: {
+                'mobileWrap': { raw: '(max-width: 767px)' }
+            }
         },
     },
 }
