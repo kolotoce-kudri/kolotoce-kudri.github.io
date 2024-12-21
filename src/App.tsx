@@ -4,9 +4,25 @@ import {Helmet} from "react-helmet-async"
 
 function App() {
     return (
-        <>
-           <Helmet><title>kolotoce kudri</title></Helmet><Header />
-        </>
+        <Router>
+            <Helmet><title>kolotoce kudri</title></Helmet><Header />
+            <div>aasd</div>
+            <div>aasd</div>
+            <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+                <div>aasd</div>
+        </Router>
     );
 }
 
