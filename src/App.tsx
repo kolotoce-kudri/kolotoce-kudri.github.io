@@ -3,6 +3,7 @@ import Header from "@/components/Header"
 import BackgroundImageArticle from "@/components/BackgroundImageArticle"
 import AboutUs from "@/components/AboutUs"
 import {Helmet} from "react-helmet-async"
+import OurAttraction from "./components/OurAttractions"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
            <Helmet><title>kolotocejrk.sk</title></Helmet><Header />
            <BackgroundImageArticle/>
            <AboutUs/>
+           <OurAttraction/>
         </>
     );
 }
