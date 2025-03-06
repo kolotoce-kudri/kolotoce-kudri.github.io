@@ -38,11 +38,6 @@ module.exports = {
                 "mobile":{raw:"(max-width:767px)"},
                 "notMobile":{raw:"(min-width:768px)"}
             },
-            attracton_card: {
-                "card":"w-[250px] p-4 border border rounded-lg text-center"
-                
-            }
-
         },
     },
 }

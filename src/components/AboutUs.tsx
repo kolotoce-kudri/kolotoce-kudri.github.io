@@ -2,7 +2,7 @@ import kolotoc from "@/images/AboutUsImage.jpg"
 
 export default function AboutUs() {
     return (
-        <article className="bg-gray-100 py-16 px-16 md:px4">
+        <article className=" py-16 px-16 md:px4 mobile:bg-gradient-to-t mobile:from-[#fac6b6] mobile:via-[#ffc2e0] mobile:to-[#f8acc6] bg-gradient-to-t from-[#fcdfa5] via-[#fab8c1] to-pink-300">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl md:text-5xl text-accentPlus font-bold mb-8 text-center">O nás</h2>
                 <div className="flex flex-col text-center md:odd:*:text-left md:even:*:text-right">
