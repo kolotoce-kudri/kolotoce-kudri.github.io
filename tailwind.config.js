@@ -5,9 +5,11 @@ module.exports = {
     content: ["src/**/*.{ts,tsx}"],
     theme: {
         extend: {
-            colors:{
+            colors: {
                 "accent": "#fedd69",
+
                 "accentPlus":"#075a5a",
+                "accentMinus": "#ff5b43"
             },
             fontFamily: {
                 "consolas": ["Consolas", "Courier New", 'Courier', 'monospace'],
@@ -38,6 +40,9 @@ module.exports = {
                 "mobile":{raw:"(max-width:767px)"},
                 "notMobile":{raw:"(min-width:768px)"}
             },
+            screens: {
+                'mobileWrap': { raw: '(max-width: 767px)' }
+            }
         },
     },
 }
