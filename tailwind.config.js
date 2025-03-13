@@ -7,7 +7,6 @@ module.exports = {
         extend: {
             colors: {
                 "accent": "#fedd69",
-
                 "accentPlus":"#075a5a",
                 "accentMinus": "#ff5b43"
             },
@@ -39,9 +38,6 @@ module.exports = {
             screens: {
                 "mobile":{raw:"(max-width:767px)"},
                 "notMobile":{raw:"(min-width:768px)"}
-            },
-            screens: {
-                'mobileWrap': { raw: '(max-width: 767px)' }
             }
         },
     },

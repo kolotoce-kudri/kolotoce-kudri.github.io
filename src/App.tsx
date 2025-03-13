@@ -1,22 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from "@/components/Header"
 import BackgroundImageArticle from "@/components/BackgroundImageArticle"
 import AboutUs from "@/components/AboutUs"
-import { Helmet } from "react-helmet-async"
 import OurAttraction from "./components/OurAttractions"
 import SocialIcons from "./components/SocialIcons"
-import Offer from "./components/offer"
+import Offer from "./components/Offer"
 import Footer from "./components/Footer"
 
 export default function App() {
     return (
         <>
             <Header />
-            <BackgroundImageArticle />
-            <AboutUs />
-            <OurAttraction />
             <SocialIcons />
-            <Offer />
+            <BackgroundImageArticle />
+            <div className="bg-gradient-to-t from-[#fcdfa5] via-[#fab8c1] to-pink-300">
+                <AboutUs />
+                <OurAttraction />
+                <Offer />
+            </div>
             <Footer />
         </>
     );

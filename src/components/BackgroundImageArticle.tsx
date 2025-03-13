@@ -5,7 +5,7 @@ export default function BackgroundImageArticle() {
         <article className="relative h-[calc(100vh-64px)] w-full overflow-hidden">
             <img
                 src={kolotocekudri}
-                alt="Kolotoče Kudri background"
+                alt="Kolotoče Kudri"
                 className="absolute inset-0 w-full h-[calc(100vh-64px)] object-cover select-none"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50" />
