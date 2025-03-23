@@ -9,5 +9,5 @@ export default function Header() {
                 <div className="text-2xl font-bold">Kolotoče Kudri</div>
             </div>
         </div>
-    ) as React.JSX.Element
+    )
 }
