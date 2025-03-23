@@ -15,7 +15,7 @@ jobs:
 
   # Build job
   build:
-    runs-on: ubuntu-22.04
+    runs-on: windows-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
