@@ -20,19 +20,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: "14"
+          bun-version: "latest"
           
       - name: Install dependencies
-        run: npm i
+        run: bun install
         
       - name: Optimalize pictures
-        run: CI=false && npm run webpify
+        run: CI=false && bun run webpify
 
       - name: Build project
-        run: CI=false && npm run build
+        run: CI=false && bun run build
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
