@@ -91,6 +91,7 @@ async function replaceInFiles() {
     for (const filePath of codeFiles) {
         try {
             let content = await fs.readFile(filePath, 'utf8');
+            console.log(content)
             let hasChanges = false;
 
             // Handle SVG imports and references
