@@ -1,6 +1,5 @@
 import { ReactSVG } from 'react-svg';
 import ferrisWheel from "@/images/ferrisWheel.svg"
-import { useRef, useState, useEffect } from 'react';
 
 export default function Header() {
     return (
