@@ -94,7 +94,7 @@ async function replaceInFiles() {
             console.log(filePath, Boolean(content))
             let hasChanges = false;
 
-            // Handle SVG imports and references
+/*            // Handle SVG imports and references
             const svgImportRegex = /import\s+(\w+)\s+from\s+["']([^"']+\.svg)["']/g;
             const svgUrlRegex = /url\s*\(\s*(?:["']|\${)([^"'`}]+)(?:["']|\})?\s*\)/g;
 
@@ -140,7 +140,7 @@ const get${importName}Srcset = () => ({
     />
     <img src={get${svgVar}Srcset().fallback} ${props}/>
 </picture>`;
-            })
+            })*/
 
             // Handle aliased imports for regular images
             const imageImportRegex = /import\s+(\w+)\s+from\s+["']([^"']+\.(jpg|jpeg|png))["']/g;
