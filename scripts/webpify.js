@@ -91,6 +91,7 @@ async function replaceInFiles() {
     for (const filePath of codeFiles) {
         try {
             let content = await fs.readFile(filePath, 'utf8');
+            console.log(filePath, Boolean(content))
             let hasChanges = false;
 
             // Handle SVG imports and references
@@ -129,7 +130,7 @@ const get${importName}Srcset = () => ({
                 
                 hasChanges = true;
                 return `${importLines}\n${helperFunction}`;
-            }).replace(/<ReactSVG\s+src={([^}]+)}\s*([^/>]*)\/?>/g, (match, svgVar, props) => {
+            }).replace(/<ReactSVG\s+src={([^}]+)}\s*([^/>]*)\/?\/>/g, (match, svgVar, props) => {
                 hasChanges = true;
                 return `
 <picture>
