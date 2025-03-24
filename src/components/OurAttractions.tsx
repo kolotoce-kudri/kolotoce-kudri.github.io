@@ -25,7 +25,7 @@ export default function OurAttraction() {
             <h1 className="text-4xl md:text-5xl text-accentPlus font-bold text-center mb-8">Naše atrakcie</h1>
             <main className="flex-1 p-7">
                 <div className="flex flex-wrap gap-8 mobile:flex-col justify-around items-center justify-items-center text-accentPlus px-12">
-                    <AttractionCard image={Autodrom} title="Autodróm" />
+                    <AttractionCard image={Autodrom} title="Autodrom" />
                     <AttractionCard image={Calypso} title="Calypso" />
                     <AttractionCard image={DetHyd} title="Detská hydraulika" />
                     <AttractionCard image={Stanok} title="Stánok s hračkami" />
