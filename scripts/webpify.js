@@ -130,7 +130,7 @@ const get${importName}Srcset = () => ({
                 
                 hasChanges = true;
                 return `${importLines}\n${helperFunction}`;
-            }).replace(/<ReactSVG\s+src={([^}]+)}\s*([^/>]*)\/?>/g, (match, svgVar, props) => {
+            }).replace(/<ReactSVG\s+src={([^}]+)}\s*([^/>]*)\/?\/>/g, (match, svgVar, props) => {
                 hasChanges = true;
                 return `
 <picture>
